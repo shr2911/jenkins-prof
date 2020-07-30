@@ -1,7 +1,6 @@
-
 @Library('cicd-pipeline') _
 
 def config = [
-    branchMatcher: [RELEASE: ['master'], DEVELOPMENT: ['^(?!master$).*$']],
+    branchMatcher: [master]
     ]
 terraformPipeline(config)
