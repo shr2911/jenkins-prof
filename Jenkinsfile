@@ -3,4 +3,4 @@
 def config = [
     branchMatcher: [master]
     ]
-terraformPipeline(config)
+terraformPipeline()
