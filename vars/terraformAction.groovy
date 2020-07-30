@@ -1,3 +1,5 @@
-def terraformAction(String tfAction){
+def call(String tfAction) {
+ def terraformAction(String tfAction){
      echo "Terraform $tfAction"
+}
 }
