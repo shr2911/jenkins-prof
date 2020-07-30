@@ -1,4 +1,4 @@
-@Library('cicd-pipeline') _
+@Library('cicd-pipeline')
 
 def config = [
     branchMatcher: [master]
