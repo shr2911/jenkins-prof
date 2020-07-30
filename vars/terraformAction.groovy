@@ -1,3 +1,3 @@
 def call(String tfAction) {
-     echo "Terraform $tfAction"
+   sh "terraform ${tfAction} $terraform_path/d"
 }
