@@ -46,6 +46,7 @@ parameters {
          stage("Terraform Apply") {
 
            steps {
+              echo "terraform1 apply"
               echo "terraform apply"
                terraformAction("apply -auto-approve")
                //sh "terraform apply -auto-approve $terraform_path/"
